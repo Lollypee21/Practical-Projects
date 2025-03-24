@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 164, 164);
+  }
+
+.card{
+    width: 400px;
+    padding: 35px;
+    background: #ebe1e1;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+    gap: 12px;
+    box-shadow: 0 10px 20px rgba(5, 5, 5, 0.2);
+}
+
+.picture {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(Card.Image/1701840570925.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .picture:hover{
+        transform: scale(1.4); 
+  }
+
+  h2, h3 {
+    transition: transform 0.3s ease-in-out;
+}
+
+h2:hover, h3:hover {
+    transform: scale(1.1); 
+}
+
+.email {
+    width: 100%;
+    background-color: #4e4d4d;
+    color: white;
+    text-align: center;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 0 15px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.email:hover{
+    background-color: grey;
+    border: 2px solid #eeeff0;
+    cursor: pointer;
+}
+
+i {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.socials i {
+    transition: color 0.3s, transform 0.3s;
+}
+
+.socials i:hover {
+    color: blue;
+    transform: scale(1.2);
+}
+
+  .location {
+    display: inline-flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
